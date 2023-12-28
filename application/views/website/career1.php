@@ -1,0 +1,79 @@
+<!--Page Header Start-->
+<section class="page-header">
+    <div class="page-header-bg"
+        style="background-image: url(<?php echo base_url().'web-assets/images/backgrounds/01.jpg'?>)">
+    </div>
+    <div class="container">
+        <div class="page-header__inner">
+            <!-- <h2>Carer</h2>
+            <ul class="thm-breadcrumb list-unstyled">
+                <li><a href="<?php echo base_url()?>">Home</a></li>
+               
+                <li><span>/</span></li>
+                <li>Career</li>
+            </ul> -->
+        </div>
+    </div>
+</section>
+<!--Page Header End-->
+<br><br><br>
+<!--Contact One Start-->
+<section class="contact-one">
+
+    <div class="container">
+<div class="section-title text-center">
+            <!-- <div class="services_shape zoom-fade-2">
+                        <img class="services_shape_img"
+                            src="<?php echo base_url().'web-assets/images/shapes/global.png'?>" alt="">
+                    </div> -->
+            <span class="blog_title">Career</span>
+            <h2 class="sub_title_blog">You have landed on the right runway, we will help you take-off from here.
+            </h2>
+        </div><br>
+        <div class="contact-one__form-box">
+            <!-- <div class="career_shape zoom-fade-2">
+                <img class="career_shape_img" src="<?php echo base_url().'web-assets/images/shapes/global.png'?>"
+                    alt="">
+            </div> -->
+            <form action="#" class="contact-one__form contact-form-validated" novalidate="novalidate">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="col-xl-6">
+                            <div class="contact-form__input-box">
+                                <input type="text" placeholder="Your name" name="name">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="contact-form__input-box">
+                                <input type="email" placeholder="Email address" name="email">
+                            </div>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="contact-form__input-box">
+                                <input type="text" placeholder="Phone number" name="phone">
+                            </div>
+                        </div>
+
+                        <div class="col-xl-6">
+                            <div class="contact-form__input-box">
+                                <input type="file" name="file">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-xl-6">
+                        <div class="contact-form__input-box text-message-box">
+                            <textarea name="message" placeholder="Write message"></textarea>
+                        </div>
+                       
+                    </div>
+                    <div class="contact-form__btn-box">
+                            <button type="submit" class="thm-btn contact-form__btn" style="border-radius: 3px">Send a message</button>
+                        </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+<!--Contact One End-->
